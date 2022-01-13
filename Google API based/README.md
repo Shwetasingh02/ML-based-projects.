@@ -1,6 +1,3 @@
-<img src="https://cdn.pixabay.com/photo/2014/04/02/10/46/red-304532_640.png" width="100%" height="10%">
-<hr>
-
 # Documentation and user manual  🗒.
 
 It's a very basic and easy to use image search using google image search API.
@@ -23,13 +20,13 @@ You can also watch some of the exciting projects on my github account.
 
 ### Basic requirements.
 
-- For this project you have to install some pip packages like 'pip install -q gradio' and 'pip install "tf-nightly"'. 
+- For this project you have to install some pip packages like `pip install -q gradio` and `pip install "tf-nightly"`. 
 - For best result i'll recommend you to use 'Google Colab'.
-- 🛑 Please note that 'Google Colab' has it's own GPU and TPU so in most of the cases you'll not required to install 'pip install tensorflow'.
+- 🛑 Please note that 'Google Colab' has it's own GPU and TPU so in most of the cases you'll not required to install `pip install tensorflow`.
 - A keyboard and mouse.
 - An image containing the monument that you want to search.
 - Active internet connection.
-- 🛑 Please note that 'Google Colab' has it's own GPU and TPU so in most of the cases you'll not required to install 'pip install tensorflow'.
+- 🛑 Please note that 'Google Colab' has it's own GPU and TPU so in most of the cases you'll not required to install `pip install tensorflow`.
 
 ### Installation and usages.
 
@@ -46,11 +43,11 @@ You can also watch some of the exciting projects on my github account.
 - Importing all the required trained API for image recognisation.
 - This module is trained only for some common places in Asian subcontinent.
 
-<img width="1440" alt="Screenshot 2022-01-12 at 21 09 21" src="https://user-images.githubusercontent.com/37871733/149172140-861d1f78-d218-4335-9ee0-15bc00e12dd0.png">
+<img width="1440" alt="Screenshot 2022-01-13 at 08 05 27" src="https://user-images.githubusercontent.com/37871733/149255758-4031a0c6-259a-451d-9a69-cf2be70e5d2f.png">
 
-- Next step is a bit tricky, but no need to panic it'll show some error.
+- Please make sure that you have used the 2d array as (321,321), othewise it'll show error in the next step.
 
-<img width="1440" alt="Screenshot 2022-01-12 at 21 31 18" src="https://user-images.githubusercontent.com/37871733/149176136-899c8062-a9bb-44d9-845e-680d26572df8.png">
+<img width="1440" alt="Screenshot 2022-01-13 at 08 11 29" src="https://user-images.githubusercontent.com/37871733/149256343-c842a9da-24b0-4cdf-83d4-3fbc4aa80740.png">
 
 - Please make sure to keep the images in the same directory or in same folder with the name as enterd in the program.
 
@@ -60,8 +57,33 @@ You can also watch some of the exciting projects on my github account.
 
 - Now run next command to check whether the image containing directory is mounted properly or not.
 
-<img width="1440" alt="Screenshot 2022-01-12 at 23 21 50" src="https://user-images.githubusercontent.com/37871733/149195072-481719b6-ca76-4988-9de9-c563bd01befc.png">
+<img width="1440" alt="Screenshot 2022-01-13 at 08 14 48" src="https://user-images.githubusercontent.com/37871733/149256694-230212ca-08fb-4e9c-a256-4cdc8a1446de.png">
 
 - 🟢 If it shows the image then it means that all the process is going correctly.
+- Now we'll check for array size and verify that wether it satisfy the array size of (321,321) or not.
 
+<img width="1440" alt="Screenshot 2022-01-13 at 08 18 11" src="https://user-images.githubusercontent.com/37871733/149256987-6bdd6ea4-4364-4044-adab-afb65a30a376.png">
 
+- In this case both of it satisfy the array value (321,321).
+- Now we'll predict the location by using the predict option of tensorflow and also using google API.
+
+<img width="1440" alt="Screenshot 2022-01-13 at 08 20 41" src="https://user-images.githubusercontent.com/37871733/149257219-8e41e405-69b0-4045-af0d-60b71b81adfd.png">
+
+- Here our tensor flow model sucessfully discovered the image as 'India gate'.
+- As it is an open source project and other user can also insert their image for searching.
+- That's why there's an UI for easy user interaction.
+
+<img width="1440" alt="Screenshot 2022-01-13 at 08 26 02" src="https://user-images.githubusercontent.com/37871733/149257726-ff615a4a-983d-4bcf-bf9c-c9a688b87aab.png">
+
+- When we'll click the link of Gradio in the last block then it'll open a new tab where we can insert the new image or the place you want to search.
+
+<img width="1440" alt="Screenshot 2022-01-13 at 08 31 22" src="https://user-images.githubusercontent.com/37871733/149258259-052c193c-3a03-4069-9aba-6a75fe3d4676.png">
+
+<br>
+<div align="center">
+
+## Thank You for reading it and hope you'll like it 😁.
+
+</div>
+
+<img src= "https://th.bing.com/th/id/R.8c089d8bc5c454ed37d8193397159f76?rik=Du9yMSlAmXKatQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fblack-and-white-city-png-city-png-picture-4963.png&ehk=P%2fZz6HKxn5eT3nj3YEqQ8TsdQZhiGlMrsYJdFRBSktY%3d&risl=&pid=ImgRaw&r=0">
