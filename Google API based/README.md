@@ -20,13 +20,12 @@ You can also watch some of the exciting projects on my github account.
 
 ### Basic requirements.
 
-- For this project you have to install some pip packages like `pip install -q gradio` and `pip install "tf-nightly"`. 
+- For this project you will be simply need to install some pip packages like `pip install -q gradio` and `pip install "tf-nightly"`. 
 - For best result i'll recommend you to use 'Google Colab'.
 - 🛑 Please note that 'Google Colab' has it's own GPU and TPU so in most of the cases you'll not required to install `pip install tensorflow`.
 - A keyboard and mouse.
 - An image containing the monument that you want to search.
 - Active internet connection.
-- 🛑 Please note that 'Google Colab' has it's own GPU and TPU so in most of the cases you'll not required to install `pip install tensorflow`.
 
 ### Installation and usages.
 
